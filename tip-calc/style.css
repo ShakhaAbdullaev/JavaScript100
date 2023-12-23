@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #FFF;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 15px;
+    box-shadow: 0px 0px 50px 20px rgba(34, 60, 80, 0.3);
+}
+
+.box_head {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box_text {
+    margin-bottom: 10px;
+}
+
+.box_desc {
+    margin-bottom: 5px;
+}
+
+.bill_input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.box_percentage {
+    margin-bottom: 5px;
+}
+
+.tip_percentage_input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.calc_btn {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #4CB050;
+    padding: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #FFF;
+    transition: 0.3s ease;
+}
+
+.calc_btn:hover{
+    transform: scale(1.01);
+    background-color: #259928;
+}
+
+.total {
+}
+
+#total {
+    font-weight: 600;
+}
+
+.source_back{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.source_link{
+    text-decoration: none;
+    background-color: #3F5EFB;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.source_link:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 8px rgba(63, 94, 251, 0.2);
+}
+
+.back_link{
+    text-decoration: none;
+    background-color: #FC466B;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-size: 18px;
+    text-align: center;
+}
+
+.back_link:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 8px rgba(252, 70, 107, 0.2);
+}

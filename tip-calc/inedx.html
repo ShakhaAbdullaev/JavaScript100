@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tip Calculator</title>
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+           -webkit-appearance: none;
+        }
+     </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="box">
+
+            <h1 class="box_head">Tip-Calculator</h1>
+
+            <p class="box_text">Enter the bill amount and tip percentage to calculate the total</p>
+
+            <p class="box_desc">Bill amount:</p>
+
+            <input class="bill_input" type="number" required id="bill">
+
+            <p class="box_percentage">Tip percentage</p>
+
+            <input class="tip_percentage_input" type="number" required id="tip">
+
+            <button class="calc_btn" id="calculate" onclick="calculateTotal()">Calculate</button>
+
+            <p class="total">Total: <span id="total">$</span></p>
+
+            <div class="source_back">
+
+                <a class="source_link" href="https://github.com/ShakhaAbdullaev/tip-calc" target="_blank">Source Code</a>
+
+                <a class="back_link" href="../index.html">Back</a>
+
+            </div>
+
+
+            
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

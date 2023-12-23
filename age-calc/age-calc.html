@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./age.css">
+</head>
+<body>
+    
+    <div class="container">
+
+
+        <div class="box">
+
+            <h1 id="box_head">Age Calculator</h1>
+
+            <p id="box_text">Enter your date of birth</p>
+
+            <div class="date_wrapper">
+
+                <input id="date" type="date" required max="9999-12-31">
+
+                <button id="calc_btn" onclick="calculateAge()">Calculate Age</button>
+
+            </div>
+
+            <p id="age">Your age is <span id="calc_age"></span></p>
+
+            <div class="source_back">
+
+                <a class="source_link" href="https://github.com/ShakhaAbdullaev/age-calc" target="_blank">Source Code</a>
+
+                <a class="back_link" href="../index.html">Back</a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="./age-js.js"></script>
+</body>
+</html>

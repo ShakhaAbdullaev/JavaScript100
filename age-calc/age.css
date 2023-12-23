@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Inter:wght@400;500;600&family=Karla:wght@400;700&family=Manrope:wght@800&family=Montserrat:wght@400;500;600;700;800;900&family=Overpass:wght@400;700&family=Playfair+Display:wght@400;500;700&family=Roboto:wght@400;500&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #FFF;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 50px 20px rgba(34, 60, 80, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.date_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+#box_head{
+    margin-bottom: 10px;
+}
+
+#box_text{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+#date{
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+#calc_btn{
+    padding: 10px;
+    background-color: #3F5EFB;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#calc_btn:hover{
+    background-color: #1c36b9;
+}
+
+#age{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#calc_age{
+    font-size: 18px;
+    font-weight: bold
+}
+
+.source_back{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.source_link{
+    text-decoration: none;
+    background-color: #3F5EFB;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.source_link:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 8px rgba(63, 94, 251, 0.2);
+}
+
+.back_link{
+    text-decoration: none;
+    background-color: #FC466B;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-size: 18px;
+    text-align: center;
+}
+
+.back_link:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 8px rgba(252, 70, 107, 0.2);
+}
