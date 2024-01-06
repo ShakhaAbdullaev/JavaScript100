@@ -59,7 +59,7 @@ ul li.active{
 .back{
     color: #fff;
     background-color: #3F5EFB;
-    border: none;
+    border-color: transparent;
     border-radius: 5px;
     padding: 5px 10px;
     transition: all 0.3s ease;
@@ -75,7 +75,7 @@ ul li.active{
 .next{
     color: #fff;
     background-color: #3F5EFB;
-    border: none;
+    border-color: transparent;
     border-radius: 5px;
     padding: 5px 10px;
     transition: all 0.3s ease; 
