@@ -3,7 +3,7 @@ const search = document.querySelector('.search_box button');
 const weatherBox = document.querySelector('.weather_box');
 const weatherDetails = document.querySelector('.weather_details');
 const error = document.querySelector('.not_found')
-
+const input = document.querySelector('#input')
 
 search.addEventListener('click', () => {
 
@@ -68,7 +68,14 @@ search.addEventListener('click', () => {
         humidity.innerHTML = `${json.main.humidity}`
         wind.innerHTML = `${parseInt(json.wind.speed)}Km/h`
 
-    })
+    });
     
-})
+});
+
+input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      document.getElementById("search").click();
+    }
+  });
 

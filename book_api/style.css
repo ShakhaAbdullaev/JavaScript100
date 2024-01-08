@@ -153,6 +153,9 @@ li{
     }
   }
 
+.backBtn{
+  margin-top: 20px;
+}
   .btn_link{
     text-decoration: none;
     background-color: #FC466B;
